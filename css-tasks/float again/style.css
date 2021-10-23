@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+.parent {
+  background-color: #9e9e9e;
+}
+.share {
+  padding: 10px 0;
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+.full div {
+  background-color: rgb(224, 75, 75);
+  width: calc(100% - 30px);
+}
+.third div {
+  background-color: rgb(243, 193, 135);
+  width: calc((100% - 60px) / 3);
+}
+.half div {
+  background-color: rgb(17, 166, 192);
+  width: calc((100% - 45px) / 2);
+}
+.quarter div {
+  background-color: rgb(231, 79, 224);
+  width: calc((100% - 75px) / 4);
+}

@@ -1,0 +1,53 @@
+.card {
+  display: inline-block;
+  padding: 50px 70px;
+  font-weight: bold;
+  font-size: 60px;
+  background-color: #eee;
+  margin: 20px;
+}
+.shape-1 {
+  border: 15px solid red;
+  outline: black solid 15px;
+}
+.shape-2 {
+  border-style: solid;
+  border-width: 15px;
+  border-top-color: blueviolet;
+  border-right-color: green;
+  border-bottom-color: blueviolet;
+  border-left-color: green;
+  outline: black solid 15px;
+}
+.shape-3 {
+  border-style: dashed;
+  border-width: 15px;
+  border-top-color: red;
+  border-right-color: green;
+  border-bottom-color: blueviolet;
+  border-left-color: yellow;
+  outline: black solid 15px;
+}
+.note {
+  font-size: 30px;
+  background-color: #eee;
+  width: 400px;
+  padding: 30px;
+  margin: 10px;
+}
+.note-1 {
+  border-left: 15px solid crimson;
+  outline: #eee solid 15px;
+  margin: 25px;
+}
+.note-2 {
+  visibility: hidden;
+  border-left: 15px solid rgb(216, 184, 42);
+  outline: #eee solid 15px;
+  margin: 25px;
+}
+.note-3 {
+  border-left: 15px solid turquoise;
+  outline: #eee solid 15px;
+  margin: 25px;
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.layout {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 10% 1fr 10%;
+  grid-template-areas:
+    "head head head head head head"
+    "sec sec sec sec sidebar sidebar"
+    "foot foot foot foot foot foot";
+}
+header {
+  grid-area: head;
+  background-color: rgb(255, 168, 127);
+}
+section {
+  grid-area: sec;
+  background-color: rgb(20, 194, 136);
+}
+aside {
+  grid-area: sidebar;
+  background-color: rgb(255, 127, 244);
+}
+footer {
+  grid-area: foot;
+  background-color: rgb(255, 236, 127);
+}

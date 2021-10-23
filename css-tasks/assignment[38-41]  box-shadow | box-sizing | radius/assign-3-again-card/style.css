@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.parent {
+  width: 550px;
+  height: 500px;
+  position: relative;
+  left: calc((100% - 550px) / 2);
+}
+
+.card {
+  width: 200px;
+  height: 400px;
+  position: relative;
+  background-color: #917e7e63;
+  float: left;
+  margin: 20px 30px;
+  padding: 20px;
+  left: calc((100% - 520px) / 2);
+}
+
+.btn {
+  position: absolute;
+  width: 75%;
+  background-color: rgb(38, 38, 207);
+  color: white;
+  font-size: 3vw;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(158 158 158 / 44%);
+  font-size: 5vw;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  padding-top: 60px;
+  top: 75px;
+}
+.basic::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -30px;
+  width: 3px;
+  height: 100%;
+  background-color: rgb(38, 38, 207);
+}
+.pro::before {
+  content: "Or";
+  position: absolute;
+  top: 100px;
+  left: -45px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(38, 38, 207);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}

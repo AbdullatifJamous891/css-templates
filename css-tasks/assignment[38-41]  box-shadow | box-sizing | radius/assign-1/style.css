@@ -1,0 +1,36 @@
+/*
+  H-shadow | V-shadow | Blur | Spread | Color | Inset
+*/
+
+* {
+  box-sizing: border-box;
+}
+div {
+  counter-increment: number-counter;
+  float: left;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  padding: 38px 21px;
+  margin-right: 38px;
+  box-shadow: -7px -4px 0 0 rgb(218, 73, 97), 7px 4px 0 0 blue;
+  background-color: #eee;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+div::after {
+  content: counter(number-counter);
+  position: absolute;
+  color: white;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  top: -11px;
+  left: 31px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

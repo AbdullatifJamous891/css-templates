@@ -1,0 +1,16 @@
+/* test-1 */
+/* div.main.red {
+  color: red;
+} */
+/* test-2 */
+/* .child:nth-child(2) {
+  color: red;
+} */
+/* test-3 */
+/* .baby:only-child {
+  color: red;
+} */
+/* test-4 */
+div[title]:not(.no-need, .parent div) {
+  color: red;
+}

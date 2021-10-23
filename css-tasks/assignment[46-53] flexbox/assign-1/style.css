@@ -1,0 +1,15 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: tomato;
+  font-weight: bold;
+  border-radius: 50%;
+  border-left: 7px solid tomato;
+  border-right: 7px solid blue;
+  /* box-shadow: -7px 0 0 0 blue, 7px 0 0 0 tomato; */
+}

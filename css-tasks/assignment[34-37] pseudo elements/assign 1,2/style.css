@@ -1,0 +1,25 @@
+/*
+div:empty {
+    background-color: red;
+} */
+
+div {
+  width: 300px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eee;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+}
+
+div::before {
+  content: "1";
+  position: absolute;
+  padding: 8px;
+  background-color: red;
+  color: white;
+  left: -10px;
+  top: 11px;
+}

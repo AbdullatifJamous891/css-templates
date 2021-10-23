@@ -1,0 +1,44 @@
+.dialog {
+  width: 400px;
+  background-color: #eee;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+  padding: 10px 20px;
+  position: relative;
+  top: 40px;
+  left: calc((100% - 442px) / 2);
+}
+.one,
+.two,
+.three,
+.four {
+  padding: 4px;
+  background-color: blue;
+  width: 20px;
+  height: 16px;
+  text-align: center;
+  position: absolute;
+  color: white;
+}
+.one {
+  top: -14px;
+  left: -15px;
+  border-right: 2px solid red;
+}
+.two {
+  bottom: -14px;
+  left: -15px;
+  border-right: 2px solid red;
+}
+.three {
+  top: -14px;
+  right: -15px;
+  border-left: 2px solid red;
+}
+.four {
+  bottom: -14px;
+  right: -15px;
+  border-left: 2px solid red;
+}

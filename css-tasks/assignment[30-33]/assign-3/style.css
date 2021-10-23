@@ -1,0 +1,25 @@
+.html,
+.css,
+.js {
+  background-color: #eee;
+  margin: 15px;
+  padding: 10px;
+  list-style: none;
+}
+li {
+  background-color: white;
+  margin-bottom: 3px;
+  padding: 5px;
+}
+.roman-style {
+  list-style-type: lower-roman;
+}
+.js ul {
+  list-style-type: circle;
+}
+.figure-container {
+  width: 400px;
+}
+.js ul li {
+  list-style-position: inside;
+}

@@ -1,0 +1,24 @@
+.title {
+  text-transform: capitalize;
+  text-shadow: 1px 1px red, 2px 2px blue, 3px 3px blueviolet;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+div {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 400px;
+  background-color: #eee;
+  padding: 10px;
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+  padding: 10px;
+  margin: auto;
+  width: max-content;
+  background-color: #ffc107;
+  text-decoration: none;
+}

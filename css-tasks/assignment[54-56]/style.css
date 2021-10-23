@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --linearColor: linear-gradient(
+    to right,
+    red 0% 20%,
+    blue 20% 40%,
+    green 40% 60%,
+    tomato 60% 80%,
+    yellow 80% 400%
+  );
+}
+.assign1 {
+  width: 600px;
+  background-color: #eee;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 40px auto;
+  text-align: center;
+  letter-spacing: 0.3em;
+  border: 10px solid;
+  border-image: var(--linearColor);
+  border-image-slice: 1;
+}
+.assign1::first-letter {
+  color: red;
+}
+hr {
+  background-image: linear-gradient(to right, red, blue, green, tomato, yellow);
+  width: 600px;
+}
+
+input {
+  display: block;
+  width: 600px;
+  background-color: #ddd;
+  margin: 20px auto;
+  padding: 15px;
+  caret-color: #f00;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(to right, #e91e63 0% 50%, #009688 50% 100%);
+  border-image-slice: 1;
+}

@@ -1,0 +1,28 @@
+p {
+  counter-increment: paragraph-counter;
+  padding: 20px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eee;
+  position: relative;
+}
+p::after {
+  content: "";
+  width: 10px;
+  height: 100%;
+  background-color: tomato;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+p::before {
+  content: counter(paragraph-counter);
+  padding: 20px;
+  background-color: tomato;
+  position: absolute;
+  top: 0;
+  left: -42px;
+  color: white;
+  font-weight: bold;
+}

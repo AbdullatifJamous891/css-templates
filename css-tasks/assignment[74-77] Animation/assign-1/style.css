@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+div {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgb(199, 32, 149);
+  border-top-color: transparent;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: relative;
+  animation-name: loader;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+div::after {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border: 5px solid rgb(32, 63, 199);
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+div::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  border: 5px solid #ff9800;
+  border-left-color: transparent;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: absolute;
+  top: -24px;
+  left: -25px;
+}
+@keyframes loader {
+  to {
+    transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+  }
+}
+div:hover {
+  animation-play-state: paused;
+}

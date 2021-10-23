@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+.parent {
+  padding: 0;
+  margin: auto;
+  /* width: 800px; */
+  background-color: #9e9e9e;
+}
+.share {
+  float: left;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+.full div {
+  background-color: #b00020;
+  width: calc(100% - 30px);
+}
+.third div {
+  background-color: #009688;
+  width: calc((100% - 60px) / 3);
+}
+.half div {
+  background-color: #e91e63;
+  width: calc((100% - 45px) / 2);
+}
+.quarter div {
+  background-color: #e55100;
+  width: calc((100% - 75px) / 4);
+}
+
+/* ---------- task 2 -----------*/
+/* div {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: #9e9e9e; 
+  color: black;
+} 
+.one {
+  background-color: rgb(158 158 158 / 0.1);
+}
+
+.two {
+  opacity: 0.1;
+}*/

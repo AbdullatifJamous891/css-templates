@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.page {
+  background-color: #ddd;
+  height: fit-content;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, auto);
+}
+.page div {
+  background-color: white;
+  margin: 2px;
+  padding: 10px;
+}
+.name,
+.job-desc,
+.job-title {
+  font-weight: bold;
+}
+.job-title {
+  color: #0000007a;
+}
+.abdullatif {
+  grid-column: 1 / 3;
+}
+.emad {
+  grid-area: 1 / 4 / 5 / 5;
+}
+.walid {
+  grid-area: 2 / 1 / 5 / 2;
+}
+.mohammad {
+  grid-column: 2 / 4;
+}
+.ahmad {
+  grid-area: 3 / 2 / 5 / 4;
+}
